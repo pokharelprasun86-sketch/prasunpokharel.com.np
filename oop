@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prasun Pokharel | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home">Prasun Pokharel</a>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero-section">
+        <div class="container hero-content">
+          <p class="eyebrow">Hi, I’m</p>
+          <h1>Prasun Pokharel.</h1>
+          <p class="hero-text">
+            I build polished, accessible websites and digital products that help
+            brands connect with people online.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#work">View Projects</a>
+            <a class="button secondary" href="#contact">Get In Touch</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about-section">
+        <div class="container section-grid">
+          <div>
+            <p class="section-label">About</p>
+            <h2>Creative developer with a focus on clarity.</h2>
+            <p>
+              I design and develop user-friendly websites, landing pages, and
+              portfolio experiences built for fast performance and easy updates.
+              I enjoy collaborating closely with clients and teams to bring
+              ideas from concept to launch.
+            </p>
+          </div>
+          <div class="about-cards">
+            <div class="card">
+              <h3>Experience</h3>
+              <p>Building websites, apps, and online campaigns across web, mobile, and brand.</p>
+            </div>
+            <div class="card">
+              <h3>Approach</h3>
+              <p>Focus on accessibility, responsive design, and polished interactions.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section work-section">
+        <div class="container">
+          <p class="section-label">Work</p>
+          <h2>Selected projects.</h2>
+          <div class="project-grid">
+            <article class="project-card">
+              <h3>Personal Portfolio</h3>
+              <p>Responsive portfolio website with animated interactions and project highlights.</p>
+            </article>
+            <article class="project-card">
+              <h3>Brand Landing Page</h3>
+              <p>Conversion-focused landing page designed for modern storytelling and strong CTAs.</p>
+            </article>
+            <article class="project-card">
+              <h3>Web App Interface</h3>
+              <p>Clean, accessible interface for dashboards, profiles, and product experiences.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills-section">
+        <div class="container">
+          <p class="section-label">Skills</p>
+          <h2>Tools and technologies I use.</h2>
+          <div class="skills-grid">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Responsive Design</span>
+            <span>Accessibility</span>
+            <span>UI/UX</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="container section-grid reverse-grid">
+          <div>
+            <p class="section-label">Contact</p>
+            <h2>Let's build something together.</h2>
+            <p>Send a message and I’ll get back to you with availability and ideas.</p>
+          </div>
+          <form class="contact-form" action="#" method="post">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" placeholder="Tell me about your project"></textarea>
+            </label>
+            <button type="submit" class="button primary">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 Prasun Pokharel. Built with clarity and creativity.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
